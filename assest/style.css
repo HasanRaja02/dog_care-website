@@ -58,7 +58,7 @@
     overflow: hidden;
 } */
 .banner_section .container .banner_text {
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
 }
 .banner_section .container .banner_text h1 {
 	font-family: "Poppins", sans-serif;
