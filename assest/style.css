@@ -138,7 +138,7 @@
 .about_section .taxt{
     padding-top: 10rem;
 }
-.about_section .row{
+.about_section .row .col-12{
     overflow: hidden;
 }
 
@@ -249,7 +249,9 @@
 }
 /* fao section */
 
-.fao_section .row{overflow: hidden;}
+.fao_section .row .col-12{
+    overflow: hidden;
+}
 .fao_section img{
     margin-top: 10rem;
     width: 100%;
