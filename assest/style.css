@@ -1,0 +1,677 @@
+
+
+.header_section .container-fluid{
+   
+    background-color: #daac00;
+}
+.header_section .navbar{
+    padding: 0;
+   
+}
+/* .header_section .container-fluid #my_nav ul li{
+    
+} */
+.header_section .navbar #my_nav form input{
+   background-color: #fcc302; 
+   border: none;
+  color: white;
+  border-color:#fcc302;
+  padding-right: 25px;
+}
+.header_section .row {
+   overflow: hidden;
+}
+.header_section .navbar #my_nav form button{
+    background-color: #00bec9;
+  border: none;
+  width: 70px;
+  margin-left: -8px;
+}
+.header_section .navbar #my_nav form button img{
+    width: 20px;
+    height: 20px;
+   
+}
+.header_section .navbar #my_nav form button:hover{
+   background-color: red;
+}
+.header_section .navbar #my_nav form input::placeholder{
+    color: white;
+}
+.header_section .container-fluid #my_nav li a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+  
+    letter-spacing: 0.15px;
+}
+.header_section .container-fluid #my_nav li a:hover{
+    background-color: #00bec9;
+}
+/* banner-section */
+.banner_section {
+    background-color: #fcc302;
+}
+/* .banner_section .row{
+    overflow: hidden;
+} */
+.banner_section .container .banner_text {
+    padding-top: 10rem;
+}
+.banner_section .container .banner_text h1 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	padding-top: 10rem;
+	font-size: 55px;
+	color: white;
+	letter-spacing: 1px;
+    text-align: f   ;
+}
+.banner_section .container .banner_text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+   
+}
+.banner_section .container .banner_text .button{
+    display: flex;
+    gap: 20px;
+    padding-top: 5rem;
+}
+.banner_section .container .banner_text .button .btn_1 button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color: white;
+    background-color: #fcc302;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.banner_section .container .banner_text .button .btn_1 button:hover{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    transform: scale(1.1);
+}
+.banner_section .container .banner_text .button .btn_2 button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color: white;
+    background-color: #fcc302;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.4s;
+    
+}
+.banner_section .container .banner_text .button .btn_2 button:hover{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    transform: scale(1.1);
+}
+
+.banner_section .container img{
+    padding-top: 5rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.banner_section .container img:hover{
+    transform: scale(1.1);
+}
+
+/* about-section */
+.about_section .taxt{
+    padding-top: 10rem;
+}
+.about_section .row{
+    overflow: hidden;
+}
+
+.about_section .taxt h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+}
+.about_section .taxt p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.about_section .taxt button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color: white;
+    background-color: #fcc302;
+    padding: 15px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 2rem;
+    transition: 0.4s;
+}
+.about_section .taxt button:hover{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    transform: scale(1.1);
+}
+.about_section img{
+    margin-top: 10rem;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.about_section img:hover{
+    transform: scale(1.1);
+}
+
+/* service-section */
+.service_section{
+    background-color: #fcc302;
+    margin-top: 4rem
+}
+.service_section .heading{
+
+}
+.service_section .heading h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+    text-align: center;
+    color: white;
+}
+.service_section .heading p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    padding-bottom: 2rem;
+}
+.service_section .service h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+}
+.service_section .service p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.service_section .service .img{
+    overflow: hidden;
+    cursor: pointer;
+}
+.service_section .service .img img{
+    
+    transition: 0.4s ;
+}
+.service_section .service .img img:hover{
+    transform: scale(1.1);
+}
+/* fao section */
+
+.fao_section .row{overflow: hidden;}
+.fao_section img{
+    margin-top: 10rem;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.fao_section img:hover{
+    transform: scale(1.1);
+}
+.fao_section .taxt{
+    padding-top: 10rem;
+}
+.fao_section .taxt h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+}
+.fao_section .taxt p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.fao_section .taxt button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color: white;
+    background-color: #fcc302;
+    padding: 15px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 2rem;
+    float: right;
+    transition: 0.4s;
+}
+.fao_section .taxt button:hover{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    transform: scale(1.1);
+}
+/* Selling section */
+.sell_section{
+    background-color: #fcc302;
+   
+}
+.sell_section .heading h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+    text-align: center;
+    color: #ffffff;
+}
+.sell_section .heading p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #ffffff;
+}
+/* .sell_section .sell{
+   
+} */
+
+.sell_section .sell .body h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* font-size: 48px; */
+    letter-spacing: 1px;    
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2rem;
+    
+}
+.sell_section .sell .body h1 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 1px;    
+    text-align: center;
+    color: #ffffff;
+    text-decoration: line-through 3px #ffffff;
+}
+
+.sell_section .sell .body button{    
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    color: white;
+    background-color: #00bec9;
+    padding: 10px 20px;
+    border: 2px solid #fcc302;
+    border-radius: 50px;
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    transition: 0.4s;
+}
+.sell_section .sell .body button:hover{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    transform: scale(1.1);
+}
+.sell_section .sell .body .img{
+    overflow: hidden;
+}
+.sell_section .sell .body img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+.sell_section .sell .body img:hover{
+    transform: scale(1.1);
+}
+/* members section */
+.member_section .heading h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+    text-align: center;
+}
+.member_section .heading p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.member_section .member .body h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;    
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+.member_section .member .body p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 1px;    
+    text-align: center;
+}
+.member_section .member .body .img {
+    overflow: hidden;
+}
+
+.member_section .member .body .img img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+}    
+.member_section .member .body img:hover{
+    transform: scale(1.1);
+}   
+.member_section .member .body .socal_midia {
+    text-align: center;
+    word-spacing: 10px;
+    padding-bottom: 2rem;
+}
+.member_section .member .body .socal_midia a{
+ 
+    text-decoration: none;
+}
+/* contact section */
+.contact_section {
+ 
+    background-image: url("../img/bg.png");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%; 
+    padding: 0;  
+    
+
+}
+
+.contact_section .happy_client{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* padding-top: 10rem; */
+    padding-bottom:5rem ;
+    
+
+}
+.contact_section .all{
+    margin-top: 10rem;
+}
+.contact_section .happy_client h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 1px;    
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.contact_section .happy_client h1:hover{
+    transform: scale(1.1);
+    
+}
+.contact_section .happy_client p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;    
+    text-align: center;
+    color: #ffffff;
+    padding-top: 1rem;
+  
+    
+}
+.contact_section .happy_client .img{
+    overflow: hidden;
+}
+.contact_section .happy_client .img img{
+   
+    cursor: pointer;
+    transition: 0.4s;
+}
+.contact_section .happy_client .img img:hover{
+    transform: scale(1.1);
+    border: 2px solid #ffffff;
+}
+
+/* Post section */
+
+.post_section .heading h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+    text-align: center;
+}
+.post_section .heading p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.post_section .post .card h3{
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.post_section .post .card .card-title p{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 2rem;
+    color: #44cfd7;
+}
+.post_section .post .card .card-body p{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 2rem;
+    
+}
+.post_section .post .card .card-body span{
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 2rem;
+    color: #00bec9;
+    cursor: pointer;
+    
+}
+
+.post_section .post .card {
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.post_section .post .card .card-heding img{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.post_section .post .card .card-heding img:hover{
+    transform: scale(1.1);
+}
+/* footer section */
+.footer_section {
+    background-color: #343434;
+}
+.footer_section h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: #ffffff;
+    padding-left: 2rem;
+}
+.footer_section ul{
+    list-style: none;
+    text-align: justify;
+}
+.footer_section ul li{
+    padding-top: 1rem;
+}
+.footer_section ul li a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+   
+    cursor: pointer;
+    
+    transition: 0.4s;
+}
+.footer_section ul li:hover{
+    transform: scale(1.1);
+    
+}
+.footer_section ul li a:hover{
+   
+    color: #00bec9;
+    
+}
+.footer_section p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.footer_section .mail input{
+    background-color: #daac00;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    color: #ffffff;
+    height: 50px;
+    width: 20rem;
+    transition: 0.4s;
+    
+   
+    
+}
+
+.footer_section .mail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.footer_section .mail button{
+    background-color: #00bec9;
+    border: none;
+    padding: 12px 24px;
+  
+    border: none;
+    cursor: pointer;
+    
+}
+.footer_section .mail button:hover{
+    background-color: red;
+    border: none;
+   
+}
+.footer_section .mail button img{
+    width: 24px;
+    cursor: pointer;
+    transition: 0.4s;
+   
+}
+.footer_section .mail button img:hover{
+    transform: scale(1.1);
+}
